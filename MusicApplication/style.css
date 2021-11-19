@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    color:rgb(204, 59, 151);
+}
+
+
+*::before , *::after{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2058%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient2059)'%3e%3c/rect%3e%3cpath d='M129.51 501.04 a4.14 4.14 0 1 0 8.28 0 a4.14 4.14 0 1 0 -8.28 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1249.99 187.57a42.04 42.04 0 1 0-4.57-83.95z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1088.1 305.51a31.87 31.87 0 1 0 11.8-62.64z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1231.91 222.85 a40.46 40.46 0 1 0 80.92 0 a40.46 40.46 0 1 0 -80.92 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M223.11 59.89 a18.88 18.88 0 1 0 37.76 0 a18.88 18.88 0 1 0 -37.76 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M116.89 317.75L163.27 317.75L163.27 318.13L116.89 318.13z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M-1.31 284.03 a30.27 30.27 0 1 0 60.54 0 a30.27 30.27 0 1 0 -60.54 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M67.93 300.48a6.39 6.39 0 1 0 4.72 11.88z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1410.31 109.26L1460.72 109.26L1460.72 115.29L1410.31 115.29z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M10.89 463.24 a16.03 16.03 0 1 0 32.06 0 a16.03 16.03 0 1 0 -32.06 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M984.12 128.49L1038 128.49L1038 166.34L984.12 166.34z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M307.35 530.63L339.05 530.63L339.05 562.55L307.35 562.55z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1392.31 535.06a13.17 13.17 0 1 0 25.96 4.5z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1277.03 517.52 a14.23 14.23 0 1 0 28.46 0 a14.23 14.23 0 1 0 -28.46 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M714.47 59.1 a0.65 0.65 0 1 0 1.3 0 a0.65 0.65 0 1 0 -1.3 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M78.19 195.23L133.03 195.23L133.03 215.84L78.19 215.84z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M497.4 523.05 a35.73 35.73 0 1 0 71.46 0 a35.73 35.73 0 1 0 -71.46 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M348.5 482.79a5.12 5.12 0 1 0 8.54-5.64z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M590.05 443.49L625.95 443.49L625.95 479.39L590.05 479.39z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M832.3 347.24L873.15 347.24L873.15 388.09L832.3 388.09z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M750.02 117.79L793.3 117.79L793.3 134.09L750.02 134.09z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M194.67 267.68a32.17 32.17 0 1 0 59.48 24.52z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M524.73 77.74L549.8 77.74L549.8 103.13L524.73 103.13z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M309.6 389 a36.64 36.64 0 1 0 73.28 0 a36.64 36.64 0 1 0 -73.28 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1014.83 251.81L1057.33 251.81L1057.33 294.31L1014.83 294.31z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M859.83-14.98a52.85 52.85 0 1 0-89.57 56.12z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1119.9 500.15 a37.61 37.61 0 1 0 75.22 0 a37.61 37.61 0 1 0 -75.22 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1314.99 542.68 a42.48 42.48 0 1 0 84.96 0 a42.48 42.48 0 1 0 -84.96 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M989.82 506.06L1009.01 506.06L1009.01 517.66L989.82 517.66z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M782.56 338.35L808.73 338.35L808.73 376.83L782.56 376.83z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M738.5 162.3L758.26 162.3L758.26 185.96L738.5 185.96z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M635.22 477.9L640.39 477.9L640.39 528.1L635.22 528.1z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M382.49 345.25a34.81 34.81 0 1 0-30.49 62.59z' fill='%23d3b714'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2058'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2059'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 96%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size: 150%;
+}
+
+.container{
+    width: 380px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    padding: 25px 30px;
+    background-color: white;
+    box-shadow: 0px 6px 15px lightskyblue;
+    background-image: linear-gradient(rgb(65, 65, 151),black,purple);
+    
+}
+
+.container i {
+    cursor: pointer;
+    
+}
+
+.top-bar , .porogress-area .timer , .controls , .music-list .header, .music-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-bar i {
+    color: rgb(19, 17, 17)
+}
+
+.img-area{
+    height: 256px;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px lightskyblue;
+}
+
+.img-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.song-details{
+    text-align: center;
+    margin: 30px 0;
+    color: lightcoral;
+}
+
+.song-details .name{
+    font-size: 30px;
+}
+
+.song-details .artist{
+    opacity: 0.9;
+    font-size: 21px;
+}
+
+.porogress-area{
+    height: 6px;
+    width: 100%;
+    background:whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.porogress-area .progress-bar{
+    height: inherit;
+    width: 0%;
+    position: relative;
+    border-radius: inherit;
+    background: linear-gradient(90deg, pink 0%, violet 100%)
+}
+
+.progress-bar::before{
+    content: "";
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background: black;
+    border-radius: inherit;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    background: inherit;
+    opacity: 0;
+    transition: opacity 0,2s ease;
+}
+
+.porogress-area:hover .progress-bar::before {
+    opacity: 1;
+}
+
+.porogress-area .timer{
+    margin-top: 2px;
+}
+
+.timer span{
+    font-size: 23px;
+    color: rgb(19, 15, 15);
+}
+
+.controls{
+   margin: 40px 0 5px;
+}
+
+.controls i {
+    font-size: 23px;
+    user-select: none;
+    background: linear-gradient(90deg, pink 0%, violet 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+}
+
+.controls i:nth-child(2), .controls i:nth-child(4){
+    font-size: 43px;
+}
+
+.controls #prev{
+    margin-right: -13px;
+}
+
+.controls #next{
+    margin-left: -13px;
+}
+
+.controls .play-pause{
+    height: 54px;
+    width: 54px;
+    background: linear-gradient(90deg, white 0%, rgb(199, 196, 196) 100%);
+    box-shadow: 0px 0px 5px rgb(138, 81, 138);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-pause::before{
+    content: "";
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    border-radius:inherit ;
+    background: linear-gradient(90deg, pink 0%, violet 100%);
+}
+
+.play-pause i{
+    height: 43px;
+    width: 43px;
+    line-height: 43px;
+    text-align: center;
+    border-radius: inherit;
+    background-clip: text;
+    background: inherit;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+
+}
+
+.music-list{
+    position: absolute;
+    left: 0;
+    bottom: -55%;
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0px -5px 10px black;
+    background: white;
+    transition: all 0.14s ease-out;
+}
+
+.music-list.show{
+    bottom: 0;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.music-list .header .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.header .row i{
+    cursor: default;
+}
+
+.header .row span{
+    margin-left: 12px;
+}
+
+.header #close{
+    font-size: 22px;
+    color: black;
+}
+
+.music-list ul{
+    margin: 10px 0;
+    max-height: 290px;
+    overflow-y: auto;
+}
+
+.music-list ul::-webkit-scrollbar{
+    width: 0px;
+}
+
+.music-list ul li{
+    cursor: pointer;
+    list-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    color: black;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.music-list ul li:last-child{
+    border-bottom: 0;
+}
+
+.music-list ul li .row span{
+    font-size: 25px;
+}
+
+ul li .row p{
+    opacity: 0.8;
+}
+
+ul li .audio-duration{
+    font-size: 20px;
+}
+
+ul .palying{
+    color: rgb(152, 110, 192);
+    pointer-events: none;
+}
