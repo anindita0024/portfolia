@@ -1,0 +1,52 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:url("https://images.pexels.com/photos/5708062/pexels-photo-5708062.jpeg?cs=srgb&dl=pexels-ben-mack-5708062.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.registerFrom{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerFrom > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.registerBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:darkcyan;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.registerLog{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color:lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}

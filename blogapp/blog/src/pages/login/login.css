@@ -1,0 +1,52 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:url("https://images.pexels.com/photos/4602696/pexels-photo-4602696.jpeg?cs=srgb&dl=pexels-jess-loiterton-4602696.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.loginTitle{
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.loginFrom{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginFrom > label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.loginBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:lightcoral;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.loginReg{
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color:darkcyan;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
