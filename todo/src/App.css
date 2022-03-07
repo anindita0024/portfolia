@@ -1,0 +1,26 @@
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1446%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1447)'%3e%3c/rect%3e%3cpath d='M763.985%2c304.733C808.791%2c306.016%2c855.324%2c287.942%2c875.966%2c248.154C895.476%2c210.547%2c877.941%2c166.46%2c853.77%2c131.665C833.326%2c102.234%2c799.814%2c87.585%2c763.985%2c86.951C726.811%2c86.293%2c688.868%2c97.268%2c668.523%2c128.387C646.273%2c162.42%2c643.231%2c206.286%2c662.588%2c242.044C682.863%2c279.498%2c721.412%2c303.514%2c763.985%2c304.733' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1434.5378041441459 218.36325659141235L1296.8884925179373 232.8307822247318 1311.3560181512566 370.4800938509404 1449.0053297774652 356.01256821762104z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M311.9440757556778 346.74857771006793L433.3707780104282 357.3720376066963 443.9942379070566 235.94533535194591 322.56753565230616 225.32187545531752z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M259.8939057485115 72.77239856590685L288.3821424244858-33.14328525699035 195.35250997096205-9.948392792118128z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M46.06088842693225 320.51680949770895L146.4674018369618 283.9718272900078 41.446671820395345 151.63454827881407z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1366.0901757065162 62.16085972936721L1322.4311171510071 15.3422514253038 1274.0327339726666 104.2401434105992z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1446'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1447'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 134%2c 0)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+
+
+
+
+
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+}
+
+button.btn.btn-primary.mx-2 {
+    margin-top: 12px;
+    font-size: 21px;
+    
+    box-shadow: 1px 2px 3px 4px;
+}
+
+div {
+    font-size: 18px;
+    color: white;
+}

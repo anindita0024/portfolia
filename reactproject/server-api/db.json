@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "abd",
+      "email": "abc@gamil.com"
+    },
+    {
+      "id": "1",
+      "name": "abd",
+      "email": "abc@gamil.com"
+    },
+    {
+      "id": "37af6f07-0330-461a-9c54-bc396813d921",
+      "name": "Anindita panda",
+      "email": "aninditapanda277@gmail.com"
+    },
+    {
+      "id": "666a3a3c-1965-4452-97a1-bc4fad40eb13",
+      "name": "Anindita panda",
+      "email": "likesomnath007@gmail.com"
+    },
+    {
+      "id": "4588c7ff-d876-4e1d-8cae-09766d27c1f8",
+      "name": "Anindita panda",
+      "email": "likesomnath007@gmail.com"
+    },
+    {
+      "id": "ec626d10-fd43-4f2a-85af-65cdc5524029",
+      "name": "somnath",
+      "email": "likesomnath007@gmail.com"
+    },
+    {
+      "id": "477d6555-d17e-43d6-92ba-cf1a4cfcb9d8",
+      "name": "Anindita panda",
+      "email": "aninditapanda277@gmail.com"
+    },
+    {
+      "id": "04f6cf6a-f748-435a-b3d5-2df0f73f3978",
+      "name": "somnath",
+      "email": "likesomnath007@gmail.com"
+    },
+    {
+      "id": "cc4f76bc-633f-4d28-aab4-a4e45df8e744",
+      "name": "Anindita panda",
+      "email": "aninditapanda277@gmail.com"
+    }
+  ]
+}

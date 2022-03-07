@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(15, 15, 146, 0.863),violet,black)
+}
+.footer{
+    
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      
+
+}
+.header{
+    text-align: center;
+    color: white;
+    width: 100%;
+    
+
+
+}
+
+.container {
+    margin-left: 27px;
+    margin-top: 20px;
+
+
+}
+
+.container.mb-3 {
+    height: 71px;
+    text-align: center;
+}
+
+.col-md {
+    text-align: center;
+    padding: 12px;
+}
+
+button.btn.btn-primary {
+    margin-left: 604px;
+    border-radius: 23px;
+    background: black;
+    color: aqua;
+}
+Table{
+    border: 2px solid black;
+    width: 1233px;
+}
+th{
+    
+    justify-content: center;
+    border: 2px solid aqua;
+    color: aqua;
+    background: black;
+
+}
+
+td {
+    width: 1234px;
+    padding: 9px;
+}
+
+h4 {
+    border: 2px solid aqua;
+    background: black;
+    color: aqua;
+    width: 1291px;
+    border-radius: 15px;
+}
+
+h3 {
+    border: 2px solid aqua;
+    background: black;
+    color: aqua;
+    border-radius: 20px;
+}
+
+select.form-select {
+    height: 28px;
+    border-radius: 16px;
+    margin-top: 28px;
+    width: 500px;
+}
+
+input#floatingInputGrid {
+    border-radius: 6px;
+    height: 25px;
+    margin-top: 45px;
+    width: 500px;
+}
+
+input#formBillAmount {
+    border-radius: 7px;
+    padding: 9px;
+    width: 500px;
+}
+
+
+
