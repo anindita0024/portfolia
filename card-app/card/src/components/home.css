@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.search-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    padding: 12px;
+    margin-left: 316px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 2px solid;
+    font-size: large;
+    text-decoration: none;
+    outline: none;
+}
